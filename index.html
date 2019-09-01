@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Hotel</title>
+  <!-- CSS StylesSheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d6f03ec3ed.js"></script>
+  <!-- Bootstrap Links -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- PreLoader -->
+  <div id="preloader">
+    <div id="box">
+      <div class="b b1"></div>
+      <div class="b b2"></div>
+      <div class="b b3"></div>
+      <div class="b b4"></div>
+    </div>
+  </div>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <a class="navbar-brand" href="">Hotel</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#reservation">RESERVATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+
+    <!-- BACKGROUND VIDEO -->
+    <video id="home-bg-video" poster="posterimage.jpg" autoplay loop muted>
+      <source src="images/Raw.mp4" type="video/mp4">
+      <source src="images/Raw.ogv" type="video/ogv">
+      <source src="images/Raw.webm" type="video/webm">
+    </video>
+
+    <!-- OVERLAY -->
+    <div id="home-overlay"></div>
+
+    <!-- Home Content -->
+    <div id="home-content">
+      <div id="home-content-inner" class="text-center">
+        <div id="home-heading">
+          <h1 id="home-heading-1">My</h1><br>
+          <h1 id="home-heading-2">Hotel <span>NAME</span></h1>
+        </div>
+        <div id="home-text">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <!-- <div id="home-btn">
+          <a <button type="button" class="btn btn-outline-warning btn-lg" href="#about">Start Now</button></a>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Arrow Down -->
+    <a href="#about" id="arrow-down">
+      <i class="fas fa-angle-down"></i>
+    </a>
+  </section>
+  <!-- HEAD part ENDS -->
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div id="about-01">
+      <div class="content-box-lg">
+        <div class="container">
+          <div class="row">
+            <!-- About Left Side -->
+            <div class="col-md-6">
+              <div id="about-left">
+                <div class="vertical-heading">
+                  <h5>Who We Are</h5>
+                  <h2>A <strong>Story</strong><br>About Us</h2>
+                </div>
+              </div>
+            </div>
+            <!-- About Right Side -->
+            <div class="col-md-6">
+              <div id="about-right">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div>
+            </div>
+          </div>
+          <!-- About Bottom -->
+          <!-- <div class="row">
+            <div class="col-md-12">
+              <div id="about-bottom">
+                <img src="images/hotel.jpg" alt="About Us" class="img-responsive hotel">
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATEMENT SECTION -->
+  <section id="statement">
+    <div class="content-box-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="statement" class="text-center">
+              <h3><i class="fas fa-quote-left"></i>Courteous treatment will make a customer a walking advertisement<i class="fas fa-quote-right"></i></h3>
+              <p>- James Cash Penney -</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Card Section -->
+  <section id="card">
+    <div class="card-heading">
+      <h1>What's New?</h1>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="images/Dish 1.jpg" class="card-img-top image1" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Item One</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Dish 2.jpg" class="card-img-top image2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Item Two</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/Dish 3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Item Three</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation -->
+
+  <!-- FORM -->
+  <section id="reservation">
+    <div class="reservation-content">
+      <h1 class="section-heading">Like What Your See?</h1>
+      <!-- <h3>Sign Up Now</h3> -->
+      <div class="col text-center">
+        <!-- <button onclick="document.getElementById('modal-wrapper').style.display='block'" class="btn btn-outline-warning btn-lg pop-btn">
+          Make Your Reservation
+        </button> -->
+          <!-- <a <button type="button" class="btn btn-outline-warning btn-lg" href="table.html">Start Now</button></a> -->
+
+        <a href="table.html"><button type="button" class="btn btn-outline-warning btn-lg" name="button" href="table.html">Make Your Reservation</button></a>
+      </div>
+    </div>
+  </section>
+  <!-- <div id="modal-wrapper" class="modal"> -->
+
+    <!-- <form class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+        <!-- <img src="images/pop.png" alt="Avatar" class="avatar"> --> -->
+        <!-- <h1 style="text-align:center">Enter Details</h1>
+      </div>
+      <div class="container">
+        <input type="text" placeholder="Enter Name" name="uname">
+        <!-- <input type="text" placeholder="Enter Surname" name="uname"> -->
+        <!-- <input type="text" placeholder="Enter Mobile Number" name="uname">
+        <!-- FOOD --> -->
+        <!-- <input class="radio-food1" type="radio" name="food" value="breakfast" checked> Breakfast
+        <input class="radio-food2" type="radio" name="food" value="lunch"> Lunch
+        <input class="<radio-food3></radio-food3>" type="radio" name="food" value="dinner"> Dinner
+        <button class="login-btn" type="submit">Submit</button>
+        <input type="checkbox" style="margin:26px 30px;"> Remember me
+        <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+      </div>
+
+    </form> -->
+  <!-- </div> -->
+
+  <!-- <div class="container-fluid">
+      <h1 class="section-heading">Like What Your See?</h1>
+      <div class="col text-center">
+        <button type="button" class="btn btn-outline-warning btn-lg">Make Your Reservation</button>
+      </div>
+    </div> -->
+
+  <!-- FOOTER Section -->
+  <section id="footer">
+    <footer class="footer-container">
+      <a href="https://www.facebook.com" <i class="social-icon fab fa-facebook-f"></i></a>
+      <a href="https:"></a><i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2019 HotelName</p>
+
+    </footer>
+  </section>
+
+
+
+
+
+  <!-- Jquery document -->
+  <script src="jquery.js" charset="utf-8"></script>
+  <!-- JavaScript Document -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
